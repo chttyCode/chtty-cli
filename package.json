@@ -1,0 +1,34 @@
+{
+  "name": "chtty-cli",
+  "version": "1.0.1",
+  "description": "- 第三方库   inquirer ：交互式命令行工具，有他就可以实现命令行的选择功能   download-git-repo ：在 git 中下载模板   chalk ：粉笔帮我们在控制台中画出各种各样的颜色   metalsmith ：读取所有文件,实现模板渲染   consolidate ：统一模板引擎",
+  "main": "index.js",
+  "bin": {
+    "chtty": "./bin/init"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chttyCode/chtty-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chttyCode/chtty-cli/issues"
+  },
+  "homepage": "https://github.com/chttyCode/chtty-cli#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "commander": "^8.0.0",
+    "consolidate": "^0.16.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.6",
+    "inquirer": "^8.1.1",
+    "metalsmith": "^2.3.0",
+    "ncp": "^2.0.0",
+    "ora": "^5.4.1"
+  }
+}
